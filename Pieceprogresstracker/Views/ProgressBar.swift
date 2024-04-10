@@ -15,7 +15,7 @@ struct ProgressBar: View {
             HStack {
                 Text("Bars learned: 15 / \(piece.bars)")
                 Spacer()
-                Text("76%")
+                Text("70%")
                     .foregroundColor(Color.blue)
                 
             }
