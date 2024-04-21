@@ -12,6 +12,7 @@ struct PieceName: View {
     
     var body: some View {
         Text(piece.name)
+            .frame(maxWidth: .infinity, alignment: .leading)
             .font(.title3)
             .fontWeight(.semibold)
     }

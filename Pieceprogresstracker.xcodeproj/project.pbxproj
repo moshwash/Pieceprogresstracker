@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C1563CF2BD3E1B100B16BD1 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1563CE2BD3E1B100B16BD1 /* ProgressBar.swift */; };
+		4C1563D12BD3F68600B16BD1 /* PieceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1563D02BD3F68600B16BD1 /* PieceList.swift */; };
 		4CB4D9992BA0DA4B001D211F /* ComposerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB4D9982BA0DA4B001D211F /* ComposerRow.swift */; };
 		4CB4D99B2BA0E06D001D211F /* PieceName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB4D99A2BA0E06D001D211F /* PieceName.swift */; };
-		4CD09E9D2BA1814400201990 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09E9C2BA1814400201990 /* ProgressBar.swift */; };
+		4CD09E9D2BA1814400201990 /* ProgressControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09E9C2BA1814400201990 /* ProgressControl.swift */; };
 		4CE12C292B9E335C00591A8D /* pieceData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4CE12C282B9E335C00591A8D /* pieceData.json */; };
 		4CE12C2C2B9E349100591A8D /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE12C2B2B9E349100591A8D /* Piece.swift */; };
 		4CE12C2E2B9E36C000591A8D /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE12C2D2B9E36C000591A8D /* ModelData.swift */; };
@@ -20,9 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C1563CE2BD3E1B100B16BD1 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		4C1563D02BD3F68600B16BD1 /* PieceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceList.swift; sourceTree = "<group>"; };
 		4CB4D9982BA0DA4B001D211F /* ComposerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerRow.swift; sourceTree = "<group>"; };
 		4CB4D99A2BA0E06D001D211F /* PieceName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceName.swift; sourceTree = "<group>"; };
-		4CD09E9C2BA1814400201990 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		4CD09E9C2BA1814400201990 /* ProgressControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressControl.swift; sourceTree = "<group>"; };
 		4CE12C282B9E335C00591A8D /* pieceData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pieceData.json; sourceTree = "<group>"; };
 		4CE12C2B2B9E349100591A8D /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
 		4CE12C2D2B9E36C000591A8D /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
@@ -47,9 +51,11 @@
 		4CB4D9972BA0D9EC001D211F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4C1563D02BD3F68600B16BD1 /* PieceList.swift */,
 				4CB4D9982BA0DA4B001D211F /* ComposerRow.swift */,
 				4CB4D99A2BA0E06D001D211F /* PieceName.swift */,
-				4CD09E9C2BA1814400201990 /* ProgressBar.swift */,
+				4CD09E9C2BA1814400201990 /* ProgressControl.swift */,
+				4C1563CE2BD3E1B100B16BD1 /* ProgressBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,10 +189,12 @@
 				4CF68AE22B9DFA26006F4419 /* ContentView.swift in Sources */,
 				4CE12C2E2B9E36C000591A8D /* ModelData.swift in Sources */,
 				4CB4D9992BA0DA4B001D211F /* ComposerRow.swift in Sources */,
+				4C1563D12BD3F68600B16BD1 /* PieceList.swift in Sources */,
 				4CB4D99B2BA0E06D001D211F /* PieceName.swift in Sources */,
 				4CF68AE02B9DFA26006F4419 /* PieceprogresstrackerApp.swift in Sources */,
 				4CE12C2C2B9E349100591A8D /* Piece.swift in Sources */,
-				4CD09E9D2BA1814400201990 /* ProgressBar.swift in Sources */,
+				4C1563CF2BD3E1B100B16BD1 /* ProgressBar.swift in Sources */,
+				4CD09E9D2BA1814400201990 /* ProgressControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
