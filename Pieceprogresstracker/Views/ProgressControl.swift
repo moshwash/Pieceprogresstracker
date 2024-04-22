@@ -25,9 +25,9 @@ struct ProgressControl: View {
         VStack {
             
             VStack(alignment: .leading) {
-                ComposerRow(piece: pieces[0])
+                ComposerRow(piece: piece)
                     .padding(.bottom, 8)
-                PieceName(piece: pieces[0])
+                PieceName(piece: piece)
                     .frame(maxWidth: .infinity)
                     .padding(.bottom, 8)
             }
@@ -44,7 +44,7 @@ struct ProgressControl: View {
             // затестить код из чатЖПТ, попробовать связать с кнопками
             // сделай через binding блять -> сделал просто через кнопки
             
-            ProgressBar(progress: learnedBars, piece: pieces[0])
+            ProgressBar(progress: learnedBars, piece: piece)
                 .frame(height: 6)
                 .clipShape(RoundedRectangle(cornerRadius: 100.0))
                 .padding(.bottom, 8)

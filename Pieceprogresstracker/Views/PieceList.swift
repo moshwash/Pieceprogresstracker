@@ -17,10 +17,12 @@ struct PieceList: View {
                 .padding(16)
             
             ScrollView(.vertical) {
-                ProgressControl(piece: pieces[0])
-                    .navigationTitle("Piece list")
-                    .background(Color.white)
-                    .clipShape(RoundedRectangle(cornerRadius: 12.0))
+                ForEach(pieces, id: \.id) { piece in
+                    ProgressControl(piece: piece)
+                        .navigationTitle("Piece list")
+                        .background(Color.white)
+                        .clipShape(RoundedRectangle(cornerRadius: 12.0))
+                }
             }
             .padding(16)
             .shadow(color: Color.black.opacity(0.1), radius: 8, x: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/, y: 2.0)

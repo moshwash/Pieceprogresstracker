@@ -5,5 +5,27 @@
 		"name": "BWV 988 — Variatio 21. Canone alla Settima",
 		"bars": 16,
 		"imageName": "JSBach"
-	}
+	},
+    {
+        "id": 2,
+        "composer": "Heitor Villa-Lobos",
+        "name": "Etude № 1",
+        "bars": 33,
+        "imageName": "Heitor Villa-Lobos"
+    },
+    {
+        "id": 3,
+        "composer": "Johann Sebastian Bach",
+        "name": "BWV 995 — Suite a-Moll, Praeludio",
+        "bars": 223,
+        "imageName": "JSBach"
+    },
+    {
+        "id": 4,
+        "composer": "Fernando Sor",
+        "name": "Introduction and Variations on “Marlborough s’en va-t-en guerre”, op.28",
+        "bars": 169,
+        "imageName": "Fernando Sor"
+    }
+    
 ]
