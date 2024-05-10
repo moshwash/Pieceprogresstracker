@@ -19,7 +19,6 @@ struct ProgressControl: View {
         }
         
     }
-    // @ObservedObject var progressbar = ProgressBar()
     
     var body: some View {
         VStack {
@@ -40,9 +39,6 @@ struct ProgressControl: View {
                 
             }
             .font(.footnote)
-            
-            // затестить код из чатЖПТ, попробовать связать с кнопками
-            // сделай через binding блять -> сделал просто через кнопки
             
             ProgressBar(progress: learnedBars, piece: piece)
                 .frame(height: 6)
@@ -84,7 +80,7 @@ struct ProgressControl: View {
                 .buttonStyle(.borderedProminent)
             }
         }
-        .padding(12)
+        //.padding(12)
     }
 }
 
