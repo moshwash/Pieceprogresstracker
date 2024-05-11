@@ -80,7 +80,7 @@ struct ProgressControl: View {
                 .buttonStyle(.borderedProminent)
             }
         }
-        //.padding(12)
+        .padding(12)
     }
 }
 
