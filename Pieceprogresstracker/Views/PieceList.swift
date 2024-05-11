@@ -9,6 +9,8 @@ import SwiftUI
 
 struct PieceList: View {
     
+    @State var showNewPiece: Bool = false
+    
     var body: some View {
         NavigationSplitView {
             ScrollView(.vertical) {
@@ -25,10 +27,13 @@ struct PieceList: View {
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button("New piece") {
-                        print("New piece")
+                        showNewPiece.toggle()
                     }
                 }
             }
+            .sheet(isPresented: $showNewPiece, content: {
+                NewPiece()
+            })
         } detail: {
             Text("View your progress")
         }

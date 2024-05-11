@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4C1563CF2BD3E1B100B16BD1 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1563CE2BD3E1B100B16BD1 /* ProgressBar.swift */; };
 		4C1563D12BD3F68600B16BD1 /* PieceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1563D02BD3F68600B16BD1 /* PieceList.swift */; };
+		4CA443EB2BEF43F3000A055F /* NewPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA443EA2BEF43F3000A055F /* NewPiece.swift */; };
 		4CB4D9992BA0DA4B001D211F /* ComposerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB4D9982BA0DA4B001D211F /* ComposerRow.swift */; };
 		4CB4D99B2BA0E06D001D211F /* PieceName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB4D99A2BA0E06D001D211F /* PieceName.swift */; };
 		4CD09E9D2BA1814400201990 /* ProgressControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD09E9C2BA1814400201990 /* ProgressControl.swift */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		4C1563CE2BD3E1B100B16BD1 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		4C1563D02BD3F68600B16BD1 /* PieceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceList.swift; sourceTree = "<group>"; };
+		4CA443EA2BEF43F3000A055F /* NewPiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPiece.swift; sourceTree = "<group>"; };
 		4CB4D9982BA0DA4B001D211F /* ComposerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerRow.swift; sourceTree = "<group>"; };
 		4CB4D99A2BA0E06D001D211F /* PieceName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceName.swift; sourceTree = "<group>"; };
 		4CD09E9C2BA1814400201990 /* ProgressControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressControl.swift; sourceTree = "<group>"; };
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				4C1563D02BD3F68600B16BD1 /* PieceList.swift */,
+				4CA443EA2BEF43F3000A055F /* NewPiece.swift */,
 				4CB4D9982BA0DA4B001D211F /* ComposerRow.swift */,
 				4CB4D99A2BA0E06D001D211F /* PieceName.swift */,
 				4CD09E9C2BA1814400201990 /* ProgressControl.swift */,
@@ -195,6 +198,7 @@
 				4CE12C2C2B9E349100591A8D /* Piece.swift in Sources */,
 				4C1563CF2BD3E1B100B16BD1 /* ProgressBar.swift in Sources */,
 				4CD09E9D2BA1814400201990 /* ProgressControl.swift in Sources */,
+				4CA443EB2BEF43F3000A055F /* NewPiece.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
