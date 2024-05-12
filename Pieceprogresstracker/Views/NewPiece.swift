@@ -10,6 +10,7 @@ import SwiftUI
 struct NewPiece: View {
     
     @Environment(\.presentationMode) var presentationMode
+    @State private var barNumber: Int? //Allows digits as only input
     
     var body: some View {
         ZStack {
@@ -18,15 +19,57 @@ struct NewPiece: View {
                     
                     Section {
                         
+                        TextField("Piece name", text: .constant(""))
+                            .textContentType(.none)
+                            .keyboardType(.namePhonePad)
+                        
                     } header: {
-                        Text("Test section")
+                        
                     } footer: {
-                        Text("Test text information")
+                        Text("Fill in the piece name")
                     }
                     .headerProminence(.increased)
                     
+                    
+                    Section {
+                        
+                        TextField("Select composer", text: .constant(""))
+                        
+                    } header: {
+                        
+                    } footer: {
+                        Text("Select composer or add a new one")
+                    }
+                    .headerProminence(.increased)
+                    
+                    
+                    Section {
+                        
+                        TextField("Number of bars", value: $barNumber, format: .number)
+                            .textContentType(.telephoneNumber)
+                            .keyboardType(.phonePad)
+
+                        
+                    } header: {
+                        
+                    } footer: {
+                        Text("Enter amount of bars in the piece")
+                    }
+                    .headerProminence(.increased)
+                    
+                    
+                    Section {
+                        
+                        Button(role: .destructive) {
+                            
+                        } label: {
+                            Text("Clear All")
+                        }
+
+                    }
+                    
                 }
-                .navigationTitle("New Piece")
+                .navigationTitle("New piece")
                 .toolbar {
                     ToolbarItem(placement: .confirmationAction) {
                         Button("Save") {
@@ -49,3 +92,5 @@ struct NewPiece: View {
 #Preview {
     NewPiece()
 }
+
+// private extension NewPiece {}
