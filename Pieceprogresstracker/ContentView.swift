@@ -9,12 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     
+    
+    @EnvironmentObject var data : AppData
     @State var showNewPiece: Bool = false
     
     var body: some View {
             NavigationSplitView {
                 ScrollView(.vertical) {
-                    ForEach(pieces, id: \.id) { piece in
+                    ForEach(data.pieces, id: \.id) { piece in
                         ProgressControl(piece: piece)
                             .background(Color.white)
                             .clipShape(RoundedRectangle(cornerRadius: 12.0))
@@ -42,4 +44,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+        .environmentObject(AppData())
 }

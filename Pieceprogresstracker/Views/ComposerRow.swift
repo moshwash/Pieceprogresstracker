@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct ComposerRow: View {
+    
     var piece: Piece
+    @EnvironmentObject var data: AppData
     
     var body: some View {
         HStack {

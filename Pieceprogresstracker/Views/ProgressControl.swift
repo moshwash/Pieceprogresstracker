@@ -7,9 +7,15 @@
 
 import SwiftUI
 
+//Прокинуть AppData
+
 struct ProgressControl: View {
+    
     var piece: Piece
+    @EnvironmentObject var data: AppData
+    
     @State private var learnedBars: Int = 0
+    
     func calc(learned: Int , bars: Int) -> Int {
         if learnedBars > 0 {
             let calculation = learnedBars * 100 / piece.bars

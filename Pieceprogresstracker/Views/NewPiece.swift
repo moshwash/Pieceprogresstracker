@@ -9,6 +9,7 @@ import SwiftUI
 
 struct NewPiece: View {
     
+    @EnvironmentObject var data : AppData
     @Environment(\.presentationMode) var presentationMode
     @State private var barNumber: Int? //Allows digits as only input
     
@@ -89,8 +90,9 @@ struct NewPiece: View {
     }
 }
 
-#Preview {
-    NewPiece()
+struct NewPiece_Previews: PreviewProvider {
+    static var previews: some View {
+        NewPiece().environmentObject(AppData())
+    }
 }
-
 // private extension NewPiece {}

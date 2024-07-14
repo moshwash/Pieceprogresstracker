@@ -10,11 +10,12 @@ import SwiftUI
 struct PieceList: View {
     
     @State var showNewPiece: Bool = false
+    @EnvironmentObject var data: AppData
     
     var body: some View {
         NavigationSplitView {
             ScrollView(.vertical) {
-                ForEach(pieces, id: \.id) { piece in
+                ForEach(data.pieces) { piece in
                     ProgressControl(piece: piece)
                         .background(Color.white)
                         .clipShape(RoundedRectangle(cornerRadius: 12.0))
