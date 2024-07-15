@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4C1563CF2BD3E1B100B16BD1 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1563CE2BD3E1B100B16BD1 /* ProgressBar.swift */; };
 		4C1563D12BD3F68600B16BD1 /* PieceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1563D02BD3F68600B16BD1 /* PieceList.swift */; };
+		4C91F3272C44DA6300FAC410 /* ApplicationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C91F3262C44DA6300FAC410 /* ApplicationData.swift */; };
 		4CA443EB2BEF43F3000A055F /* NewPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA443EA2BEF43F3000A055F /* NewPiece.swift */; };
 		4CB4D9992BA0DA4B001D211F /* ComposerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB4D9982BA0DA4B001D211F /* ComposerRow.swift */; };
 		4CB4D99B2BA0E06D001D211F /* PieceName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB4D99A2BA0E06D001D211F /* PieceName.swift */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		4C1563CE2BD3E1B100B16BD1 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		4C1563D02BD3F68600B16BD1 /* PieceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceList.swift; sourceTree = "<group>"; };
+		4C91F3262C44DA6300FAC410 /* ApplicationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationData.swift; sourceTree = "<group>"; };
 		4CA443EA2BEF43F3000A055F /* NewPiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPiece.swift; sourceTree = "<group>"; };
 		4CB4D9982BA0DA4B001D211F /* ComposerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerRow.swift; sourceTree = "<group>"; };
 		4CB4D99A2BA0E06D001D211F /* PieceName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceName.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 			children = (
 				4CE12C2B2B9E349100591A8D /* Piece.swift */,
 				4CE12C2D2B9E36C000591A8D /* ModelData.swift */,
+				4C91F3262C44DA6300FAC410 /* ApplicationData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				4CF68AE22B9DFA26006F4419 /* ContentView.swift in Sources */,
 				4CE12C2E2B9E36C000591A8D /* ModelData.swift in Sources */,
 				4CB4D9992BA0DA4B001D211F /* ComposerRow.swift in Sources */,
+				4C91F3272C44DA6300FAC410 /* ApplicationData.swift in Sources */,
 				4C1563D12BD3F68600B16BD1 /* PieceList.swift in Sources */,
 				4CB4D99B2BA0E06D001D211F /* PieceName.swift in Sources */,
 				4CF68AE02B9DFA26006F4419 /* PieceprogresstrackerApp.swift in Sources */,

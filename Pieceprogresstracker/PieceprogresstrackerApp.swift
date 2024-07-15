@@ -7,11 +7,6 @@
 
 import SwiftUI
 
-class AppData: ObservableObject {
-    
-    @Published var pieces : [Piece] = load("pieceData.json")
-    
-}
 
 @main
 struct PieceprogresstrackerApp: App {
