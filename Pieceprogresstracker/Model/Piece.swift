@@ -7,8 +7,10 @@
 
 import Foundation
 import SwiftUI
+import SwiftData
 
-struct Piece: Hashable, Codable, Identifiable {
+//@Model
+class Piece: Decodable, Identifiable {
     
     var id: Int
     var composer: String
@@ -18,5 +20,13 @@ struct Piece: Hashable, Codable, Identifiable {
     private var imageName: String
     var image: Image {
         Image(imageName)
+    }
+    
+    init(id: Int, composer: String, name: String, bars: Int, imageName: String) {
+        self.id = id
+        self.composer = composer
+        self.name = name
+        self.bars = bars
+        self.imageName = imageName
     }
 }
